@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    height: 400px;
+    padding: 30px;
+    background: #111;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Profile Image */
+.profile-image img {
+    width: 160px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #3a3a3a;
+}
+
+/* Social Icons */
+.social-icons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+/* Content Section */
+.content {
+    max-width: 500px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 36px;
+    color: #8a5cf1;
+}
+
+h2 {
+    font-size: 18px;
+    color: #888;
+}
+
+p {
+    font-size: 16px;
+    color: #bbb;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #222;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #8a5cf1;
+}
+
+
+                           /*Styling for Projects.html*/
+
+                           
